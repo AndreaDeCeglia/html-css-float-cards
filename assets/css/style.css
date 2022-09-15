@@ -17,3 +17,9 @@
     margin: 40px 0;
     color: #E53170;
   }
+
+  .clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+  }
